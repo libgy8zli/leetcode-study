@@ -1,4 +1,4 @@
-##BST 
+## BST 
 
 Binary search tree is a binary tree where each node contains a key and an optional associated value.
 It allows particularly fast lookup, addition, and removal of items. And each node is arranged
@@ -19,7 +19,7 @@ class TreeNode:
         self.right = right
 ```
 
-####pre-order traversal will visit node in this order: **root-left-right**.
+#### pre-order traversal will visit node in this order: **root-left-right**.
 
 Recursive approach:
 ```python
@@ -49,7 +49,7 @@ def preorder(root):
     return result 
 ```
 
-####in-order traversal will visit node in this order: **left-root-right**.
+#### in-order traversal will visit node in this order: **left-root-right**.
 
 Recursive approach:
 ```python
@@ -78,7 +78,7 @@ def inorder(root):
     return result
 ```
 
-####post-order traversal will visit node in this order: **left-right-root**.
+#### post-order traversal will visit node in this order: **left-right-root**.
 
 Recursive approach:
 ```python
