@@ -32,10 +32,10 @@ is no more than 1, we will find the depth of the tree, and compare left and righ
 Recursive approach:
 ```python
 class Solution:
-    def tree_height(self, root, depth=0):
+    def tree_height(self, root):
         if not root:
             return 0
-        return max(self.tree_height(root.left, depth+1), self.tree_height(root.right, depth+1)) + 1
+        return max(self.tree_height(root.left), self.tree_height(root.right)) + 1
 
     def isBalanced(self, root):
         if not root:
