@@ -1,2 +1,2 @@
 # leetcode-study
-repo to for leetcoding
+repo for leetcoding
