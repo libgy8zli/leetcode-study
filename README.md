@@ -2,7 +2,7 @@
 repo for leetcoding
 
 
-Next to do for 9/4/2020:
+Next to do for 9/7/2020:
 
-113 and 437 
+543, 124, 637, 209, 76 and 239
 
