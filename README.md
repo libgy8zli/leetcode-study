@@ -2,7 +2,9 @@
 repo for leetcoding
 
 
-Next to do for 9/8/2020:
+Next to do for 9/9/2020:
 
-76 , 239 and 904
+linear solution for 239 
+and 904, 3, 340, 159
+
 
