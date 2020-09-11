@@ -10,6 +10,8 @@ You have two baskets, and each basket can carry any quantity of fruit, but you w
 
 What is the total amount of fruit you can collect with this procedure?
 
+Identical question: 159
+
 ```
 Example 1:
 
@@ -59,6 +61,7 @@ class Solution:
                     tree_count_dict[tree[start]] -= 1
                     if tree_count_dict[tree[start]] == 0:
                         tree_count_dict.pop(tree[start])  
+                start += 1
             # update max_tree
             max_tree = max(max_tree, end-start+1)
         return max_tree
