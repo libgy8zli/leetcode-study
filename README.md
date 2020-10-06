@@ -2,8 +2,13 @@
 repo for leetcoding
 
 
-Next to do for 9/11/2020:
-504, 438 and
-backlog: linear solution for 239 
+need to revisit: 5, 28, 409, 680, 134
+
+
+two pointers: 
+
+leetcode: 1, 75, 15, 876, 283, 167, 215, 611
+
+lintcode: 587, 31, 609, 533, 443, 461, 144
 
 
